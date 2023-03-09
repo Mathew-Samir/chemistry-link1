@@ -46,6 +46,8 @@ body{
     width: 85%;
     height: 40px;
     border-radius: 40px;
+    border:none;
+    box-shadow: 4px 4px 4px #adacac;
     background-color: rgb(237, 156, 42);
     margin: 10px 0;
 
