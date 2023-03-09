@@ -50,7 +50,10 @@ body{
     box-shadow: 4px 4px 4px #adacac;
     background-color: rgb(237, 156, 42);
     margin: 10px 0;
-
+}
+.body button:hover{
+    background-color: rgb(201, 47, 47);
+    color: white;
 }
 
 .body button i{
