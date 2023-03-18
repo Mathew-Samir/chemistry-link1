@@ -51,6 +51,7 @@ body{
     background-color: rgb(237, 156, 42);
     margin: 10px 0;
 }
+
 .body button:hover{
     background-color: rgb(201, 47, 47);
     color: white;
@@ -58,6 +59,11 @@ body{
 
 .body button i{
     margin: 0 5px;
+}
+
+.body .phone button{
+    width: 41.5%;
+    margin: 10 0;
 }
 
 .container .logo{
