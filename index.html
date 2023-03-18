@@ -14,45 +14,62 @@
             <img src="images/3.jpg">
             <h2><P>Mina Nazeem</P></h2>
             <!--<P>You Are Welcome</P>-->
-
             <div class="logo1"><img class="logo1" src="images/logo mina 3.png"></div>
-
         </div>
+
+
         <div class="body">
             
-
-
             <a href="https://mina-nazeem-chem.com/">
                 <button><i class="fa-solid fa-flask-vial"></i>Website</button>
             </a>
-
-
             <a href="https://t.me/+Oa7Oo9JW20QzMWI8">
                 <button><i class="fa-solid fa-paper-plane"></i>Telegram Secondary One</button>
             </a>
-
             <a href="https://t.me/+7ax9zjp-aA9kODE0">
                 <button><i class="fa-solid fa-paper-plane"></i>Telegram Secondary Two</button>
             </a>
-
-
             <a href="https://web.facebook.com/profile.php?id=100088719323484">
                 <button><i class="fa-brands fa-facebook"></i>Facebook</button>
             </a>
-
-
             <a href="https://www.youtube.com/channel/UCHiQ2FQA7wEhPEsADRYdWFA">
                 <button><i class="fa-brands fa-youtube"></i>YouTube</button>
             </a>
-
             <a href="https://www.instagram.com/mina.nazeem/">
                 <button><i class="fa-brands fa-square-instagram"></i>Instgram</button>
             </a>
+
+            <div class="phone">
+                <button id="call-button1" class="call-button"><i class="fa-solid fa-phone"></i><b>01159847460</b></button>
+                <button id="call-button2" class="call-button"><i class="fa-solid fa-phone"></i><b>01554288171</b></button>
+            </div>
         </div>
+
+
+            
+
+
         <div class="logo">
             <img src="images/call center.png">
             
         </div>
+
     </div>
+
+    <script>
+        const callButton1 = document.getElementById('call-button1');
+        const callButton2 = document.getElementById('call-button2');
+        const phoneNumber1 = '115-984-7460';
+        const phoneNumber2 = '155-428-8171';
+    
+        callButton1.addEventListener('click', () => {
+        window.location.href = `tel:${phoneNumber1}`;
+        });
+
+        callButton2.addEventListener('click', () => {
+        window.location.href = `tel:${phoneNumber2}`;
+        });
+
+</script>
 </body>
 </html>
