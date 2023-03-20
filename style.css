@@ -73,3 +73,20 @@ body{
     width: 220px;
     height: 150px;
 }
+
+.footer {
+    background-color: #cecece;
+    padding: 5px 0;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer .container p{
+    font-size: 12px;
+}
