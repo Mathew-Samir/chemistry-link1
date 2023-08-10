@@ -30,11 +30,11 @@ body{
     margin-top: 90px;
 }
 .container .header .logo1 img{
-    width: 270px;
-    height: 70px;
+    width: 277px;
+    height: 150px;
     margin: 0;
     padding: 0;
-    margin-right: 10px;
+    margin-right: -20px;
 }
 
 .body{
