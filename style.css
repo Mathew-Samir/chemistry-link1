@@ -9,6 +9,9 @@ body{
     background-attachment: fixed;
     background-size:cover;
 }
+.background{
+    background-image: url("images/1.JPG");
+}
 
 .container{
     width: 80%;
